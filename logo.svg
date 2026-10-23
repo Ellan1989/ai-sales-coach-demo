@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="512" height="512" rx="96" ry="96"/>
+    </clipPath>
+  </defs>
+  <!-- 黑色圆角背景 -->
+  <rect width="512" height="512" rx="96" ry="96" fill="#0a0a0a"/>
+  <g clip-path="url(#rounded)">
+    <!-- K 字: 左侧竖条 -->
+    <polygon points="120,88 192,88 192,424 120,424" fill="#ffffff"/>
+    <!-- K 字: 右上臂 - 锐利切角 -->
+    <polygon points="208,232 392,88 392,176 208,256" fill="#ffffff"/>
+    <!-- K 字: 右下臂 - 锐利切角 -->
+    <polygon points="208,256 392,336 392,424 208,280" fill="#ffffff"/>
+  </g>
+</svg>
